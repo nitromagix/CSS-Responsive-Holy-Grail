@@ -29,7 +29,7 @@ Let's build it together
 
 
 
-Navigate to a convenient location on your computer.
+Navigate to this repo's folder on your computer
 
 - `mkdir css-layout`
 - `cd css-layout`
