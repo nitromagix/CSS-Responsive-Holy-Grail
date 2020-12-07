@@ -28,12 +28,13 @@ It has a header along the top, then the main content is in the center, nav can b
 Let's build it together
 
 
-
 Navigate to this repo's folder on your computer
 
 - `mkdir css-layout`
 - `cd css-layout`
-- `touch index.html main.css`
+- `touch index.html 
+
+.css`
 - open with your text editor
 - add html boilerplate
 - link your css: `<link rel="stylesheet" href="./main.css">`
@@ -82,7 +83,7 @@ body {
 
 **Confirm success:**
 
-![](./assets/images/start-code-complete.png)
+![](./assets/images/desktop-holygrail-starter.png)
 
 It would be nice, to work with a dark theme of colors. But hex colors are hard to remember. We can create CSS variables and use them in our build. Let's copy and paste this to the top of our `main.css`:
 
@@ -146,7 +147,7 @@ footer, header {
 
 ```
 
-We can now open up dev tools and click on the mobile view:
+We can now open up Chrome dev tools and click on the mobile view:
 
 ![](./assets/images/dev-tools-mobile-toggle.png)
 
@@ -194,14 +195,14 @@ Let's finish up our layout:
 
 #### Bonus
 
-We can, inside our `main` element add some text*
+We can add some text in our main element*
 
 ```html
 <section>
   <p>lorem</p>
 <section>
 ```
-* type `lorem` and let it autofill with some lorem text
+* type `lorem` and let it autofill with some lorem ipsum text
 
 Create a few of these sections, so that you can see what happens when the content of main is larger than the height of our viewport.
 
