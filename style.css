@@ -49,16 +49,11 @@ footer {
    }
 
    main {
-      max-width: 60%;
-   }
-
-   aside,
-   nav {
-
+      max-width: 60vw;
    }
 
    header,
    footer {
-      width: 100%;
+      width: 100vw;
    }
 }
