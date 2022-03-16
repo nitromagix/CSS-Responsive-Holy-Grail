@@ -1,0 +1,64 @@
+:root {
+   --pale-sage: #bff4cb;
+   --sage: #84a98c;
+   --dusty-emerald: 52796f;
+   --deep-emerald: #354f52;
+   --night-forest: #2f3e46;
+}
+
+body {
+   margin: 0;
+   font-family: sans-serif;
+   text-align: center;
+   color: var(--pale-sage);
+   background-color: var(--night-forest);
+}
+
+* {
+   border: 1px solid teal;
+}
+
+.container {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+main {
+   min-height: 60vh;
+   flex-grow: 5;
+}
+
+aside,
+nav {
+   background-color: var(--dusty-emerald);
+   flex-grow: 2;
+}
+
+header,
+footer {
+   background-color: var(--sage);
+   flex-grow: 1;
+}
+
+@media (min-width:600px) {
+   .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+
+   main {
+      max-width: 60%;
+   }
+
+   aside,
+   nav {
+
+   }
+
+   header,
+   footer {
+      width: 100%;
+   }
+}
